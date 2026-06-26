@@ -1,4 +1,101 @@
-/*
+/*  Here is an updated, restructured version of the Chromium documentation page for Linux packages. Following the internal note to **move away from tables**, this version uses a clean, modern layout with clear headings and list formats to improve readability and maintainability.
+
+## Linux Chromium Packages
+Some Linux distributions package up Chromium for easy installation. Please note that **Chromium is not identical to Google Chrome** and that individual distributions may (and frequently do) apply their own custom modifications and patches.
+
+### Official Distribution Packages
+
+#### Ubuntu
+ * **Maintainer/Contact:** Olivier Tilloy (olivier.tilloy@canonical.com)
+ * **Package URL:** Launchpad Ubuntu Source
+ * **Patches:** Ubuntu Chromium Team Code
+
+#### Debian
+ * **Maintainer/Contact:** chromium@packages.debian.org
+ * **Package URL:** Debian Package Tracker
+ * **Patches:** Debian Patches for Chromium
+
+#### openSUSE
+ * **Maintainer/Contact:** openSUSE Bugzilla
+ * **Package URL:** openSUSE Software Portal
+ * **Patches:** openSUSE Factory Source
+
+#### Arch Linux
+ * **Maintainer/Contact:** Evangelos Foutras (evangelos@foutrelis.com)
+ * **Package URL:** Arch Linux Packages
+ * **Patches:** Arch Linux Git Repository
+
+#### Gentoo
+ * **Maintainer/Contact:** Gentoo Chromium Project
+ * **Package URL:** Gentoo Packages
+ * **Patches:** Gentoo Chromium Tools Git
+
+#### Fedora
+ * **Maintainer/Contact:** Tom Callaway (tcallawa@redhat.com)
+ * **Package URL:** Fedora RPM Source
+ * **Patches:** Fedora Rawhide Tree
+
+#### NixOS
+ * **Maintainer/Contact:** aszlig (^[0-9]+$@regexmail.net)
+ * **Package URL:** NixOS Package Search
+ * **Patches:** Nixpkgs Repository
+
+#### Yocto Project
+ * **Maintainer/Contact:** Max Ihlenfeldt (max@igalia.com)
+ * **Package URL:** OSSystems Meta-Browser
+ * **Patches:** Yocto Chromium Recipes
+
+#### Mageia
+ * **Maintainer/Contact:** Dexter Morgan (dmorgan@mageia.org)
+ * **Package URL:** Mageia Subversion SPECS
+ * **Patches:** Mageia Subversion SOURCES
+
+#### ALT Linux
+ * **Maintainer/Contact:** Andrey Cherepanov (cas@altlinux.org)
+ * **Package URL:** ALT Linux Sisyphus Packages
+ * **Patches:** ALT Linux Git Tree
+
+#### OpenMandriva
+ * **Maintainer/Contact:** Bernhard Rosenkraenzer (bero@lindev.ch)
+ * **Package URL:** *n/a*
+ * **Patches:** * Stable Branch
+   * Beta Branch
+   * Dev Branch
+
+#### Exherbo
+ * **Maintainer/Contact:** Timo Gurr (tgurr@exherbo.org)
+ * **Package URL:** Exherbo Summer Packages
+ * **Patches:** Exherbo Desktop Tree
+
+### Unofficial Packages
+*Packages listed in this section are independently maintained and are not part of their respective distribution's official upstream repositories.*
+
+#### Slackware
+ * **Maintainer/Contact:** Eric Hameleers (alien@slackware.com)
+ * **Package URL:** Slackbuilds Chromium
+ * **Patches:** Slackbuilds Patches
+
+### Other Unix-like Systems
+
+#### FreeBSD
+ * **Maintainer/Contact:** freebsd-chromium@freebsd.org
+ * **Package URL:** FreeBSD Chromium Wiki
+ * **Patches:** FreeBSD Ports Tree
+
+#### OpenBSD
+ * **Maintainer/Contact:** Robert Nagy (robert@openbsd.org)
+ * **Package URL:** OpenBSD Ports Search
+ * **Patches:** OpenBSD CVS Web Patches
+
+## Updating This List
+Are you packaging Chromium for a Linux distribution, or is some of the information listed above out of date? Please contact the team in //build/linux/OWNERS with updates, or submit a code review to update this document directly.
+
+> ### ⚠️ Important Notes Before Reaching Out:
+>  * **No Technical Support:** This channel is strictly for documentation updates, not for troubleshooting or installation help.
+>  * **Unlisted Distros:** The Chromium team does not maintain information for distributions omitted from this page.
+>  * **Google Chrome Support:** For official Google Chrome support details and its natively supported Linux distributions, please reference the Google Chrome Support Documentation.
+> 
+
 Copyright 2015 The Kubernetes Authors.
 
 Licensed under the Apache License, Version 2.0 (the "License");
